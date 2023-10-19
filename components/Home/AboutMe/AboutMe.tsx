@@ -1,6 +1,5 @@
-import React from "react";
-import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import Img from "../../../components/smallComp/image/Img";
 export default function AboutMe(props) {
   const technologies = [
     ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
@@ -27,12 +26,9 @@ export default function AboutMe(props) {
 
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
-            <div className="font-Header ">
+            <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hello! My name is Thuvarakan, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+              Hello, my Name is <span className="text-AAsecondary"> Thuvarakan! </span>It is great to meet another code enthusiast! In 2019, I jumped into the huge world of <span className="text-AAsecondary">Full Stack development,</span>  beginning a journey inspired by a desire to create powerful code that makes waves on the internet. I had no idea at the time that my flair for problem solving and dedication would be the driving factors behind my expanding programming adventure. Let us continue to push the limits of what we can produce in this amazing digital landscape!
               </span>
             </div>
             <div className="font-Header ">
